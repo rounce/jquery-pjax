@@ -315,8 +315,6 @@ function pjax(options) {
       autofocusEl.focus();
     }
 
-    executeScriptTags(container.scripts)
-
     var scrollTo = options.scrollTo
 
     // Ensure browser scrolls to the element referenced by the URL anchor
